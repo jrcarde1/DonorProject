@@ -5,7 +5,7 @@
     <Name>DonorProject</Name>
     <RootNamespace>DonorProject</RootNamespace>
     <TestFramework>Pytest</TestFramework>
-    <InterpreterId>Global|VisualStudio|Donor Project Virtual Environment </InterpreterId>
+    <InterpreterId>MSBuild|envNG|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -95,6 +95,17 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="envNG\">
+      <Id>envNG</Id>
+      <Version>0.0</Version>
+      <Description>envNG (Python 3.11 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
