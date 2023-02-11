@@ -95,6 +95,20 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
+    <InterpreterReference Include="Global|VisualStudio|Donor Project Virtual Environment " />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="envNG\">
